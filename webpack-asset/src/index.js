@@ -12,4 +12,6 @@ function component(){
   element.appendChild(myLogo)
   return element;
 }
+const a = 11;
+console.log('a:', a)
 document.body.appendChild(component());
